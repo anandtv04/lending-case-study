@@ -1,52 +1,46 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+
+- Lending Club, a consumer finance marketplace specializing in offering a variety of loans to urban customers.
+- When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile.
+- Two types of risks are associated with the bank’s decision:
+    - If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
+    - If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company
+- The data contains information about past loan applicants and whether they ‘defaulted’ or not. 
+- The aim is to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc.
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+
+- [General Info](#general-information)
+- [Conclusions](#conclusions)
+- [Technologies Used](#technologies-used)
+- [Acknowledgements](#acknowledgements)
+- [Collaborators](#collaborators)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+### Objectives
+
+- The company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default. The company can utilise this knowledge for its portfolio and risk assessment. 
+- This case study aims to achieve this goal through exploratory data analysis (EDA) using the provided [Dataset](./loan/loan.csv)
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- [Details](./Lending_Club_Case_Study_Anand_Ankur.pdf)
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- [Python](https://www.python.org/) - version 3.13
+- [Matplotlib](https://matplotlib.org/) - version 3.9.0
+- [Numpy](https://numpy.org/) - version 1.26.4
+- [Pandas](https://pandas.pydata.org/) - version 1.5.3
+- [Seaborn](https://seaborn.pydata.org/) - version 0.12.2
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
+- UpGrad tutorials on Exploratory Data Analysis (EDA) on the learning platform
 
-## Contact
-Created by [@githubusername] - feel free to contact me!
+## Collaborators
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@anandtv04](https://github.com/anandtv04) and [@ankurbjr](https://github.com/ankurbj)
